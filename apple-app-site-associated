@@ -3,7 +3,13 @@
     "details": [
       {
         "appIDs": ["4SNPZZ27XN.com.gemalto.mobilepassp"],
-        "paths": ["*"]
+        "components": [
+          {
+            "/": "/",
+            "?": { "enrollment": "*" },
+            "comment": "Matches any URL at the root path that has a query paramater 'enrollemnt' with any value."
+          }
+        ]
       }
     ]
   }
