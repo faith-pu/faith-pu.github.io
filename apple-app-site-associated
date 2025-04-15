@@ -1,0 +1,10 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["4SNPZZ27XN.com.gemalto.mobilepassp"],
+        "paths": ["*"]
+      }
+    ]
+  }
+} 
